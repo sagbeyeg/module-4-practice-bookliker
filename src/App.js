@@ -10,9 +10,9 @@ class App extends React.Component{
     books: [],
     currentBook: {
       id: '',
-      title: '',
-      description: '',
-      img_url: '',
+      title: 'Book title',
+      description: 'Book description',
+      img_url: 'https://react.semantic-ui.com/images/wireframe/image.png',
       users: [],
       liked: ''
   },
